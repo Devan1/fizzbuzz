@@ -8,7 +8,7 @@
     {
         Console.Write($"buzz, ");
     }
-    else if(i % 3 == 0 && i % 5 == 0)
+    else if(i % 3 == 0 & i % 5 == 0)
     {
         Console.Write($"fizzbuzz, ");
     }
@@ -18,5 +18,5 @@
     }
     
 }
-Console.WriteLine();
-Console.WriteLine($"----------------------------------------");
+
+
